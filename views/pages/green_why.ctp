@@ -1,3 +1,6 @@
+<?php
+	echo $this->set('title_for_layout', 'Why Signs Going Green?');
+?>
 ·         Hospitals and health care facilities are very special places because of the populations they serve:
 
 Patients

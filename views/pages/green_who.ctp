@@ -1,4 +1,5 @@
 <?php
+	$this->set('title_for_layout', 'Who Is Signs Going Green?');
 	echo $this->Html->image('jj.jpg');
 ?>
 Jarvis “JJ” Jones, M.S, B.A

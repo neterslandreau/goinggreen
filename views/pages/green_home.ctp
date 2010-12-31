@@ -1,3 +1,6 @@
+<?php
+	echo $this->set('title_for_layout', 'What is Green Going Green?');
+?>
 <h1>SIGNS GOING GREEN CERTIFICATION</h1>
 <p>We believe that a signage program can be one more element that adds to a community image of corporate responsibility and good corporate citizenship.</p>
 <p>Our <b>SIGNS GOING GREEN</b> certification program is for Hospital and Medical facilities that want to improve the carbon footprint of their signage, building exterior, interior way finding, parking etc.</p>
