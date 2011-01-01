@@ -19,7 +19,7 @@
 	?>
 <div class="copyright-container">
 <p class="copyright">
-&copy; 2008 - <?=date('Y')?>Signs Going Green<br />
+&copy; 2008 - <?=date('Y')?> Signs Going Green<br />
 PO Box 15456<br />
 Fort Lauderdale, FL 33318<br />
 954.326.8900
