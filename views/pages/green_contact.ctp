@@ -6,12 +6,23 @@
 			'action' => 'contact',
 		),
 	));
-	echo $this->Form->input('name');
-	echo $this->Form->input('email');
-	echo $this->Form->input('phone');
+	echo $this->Form->input('name', array(
+		'class' => 'block',
+		'size' => 62,
+	));
+	echo $this->Form->input('email', array(
+		'class' => 'block',
+		'size' => 62,
+	));
+	echo $this->Form->input('phone', array(
+		'class' => 'block',
+		'size' => 62,
+	));
 	echo $this->Form->input('question', array(
 		'type' => 'textarea',
+		'before' => 'Question<br />',
+		'label' => '',
+		'cols' => 80,
 	));
 	echo $this->Form->end('Submit');
 ?>
-This page would include the standard contact information  gathering format.

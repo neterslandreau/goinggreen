@@ -15,8 +15,12 @@ class UsersController extends AppController {
 	public function contact() {
 		$this->autoRender = false;
 		if (!empty($this->data)) {
-//			debug($this->data);
-			$this->Session->setFlash('Thank you for the inquiry.');
+			if (empty($this->data['name']) || (empty($this->data['email']) && empty($this->data['phone']))) {
+				$flash = 'Please include a way for us to reply.';
+			} else {
+				$flash = 'Thank you for the inquiry.';
+			}
+			$this->Session->setFlash($flash);
 			$this->redirect(array('controller' => 'pages', 'action' => 'display', 'green_contact'));
 		}
 	}
