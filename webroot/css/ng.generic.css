@@ -9,7 +9,7 @@ body {
 	background-color: #27701C;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size:13px;
+	font-size:14px;
 	width: 1024px;
 	margin: 0 auto;
 }
@@ -226,10 +226,10 @@ margin-bottom:-5px;
 }
 #topmenu a {
 text-decoration: none;
-color: #003d4c;
+color: #27701C;
 }
 #topmenu a:hover {
-background-color: #003d4c;
+background-color: #27701C;
 color:#ffffc0;
 margin-top:-2px;
 border-top:1px solid #ffffc0;
@@ -263,6 +263,7 @@ color: #003d4c;
 #bottommenu_container {
 clear:both;
 text-align:center;
+display: inline;
 }
 
 .topmenu {
@@ -823,6 +824,10 @@ ul.areanav li a {
 ul.areanav a:hover, ul.areanav a.selected {
 	background: #fff;
 	color: #000;
+}
+img.floatLeft {
+    float: left;
+    margin: 4px;
 }
 /* */
 

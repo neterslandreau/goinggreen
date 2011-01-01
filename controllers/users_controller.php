@@ -15,7 +15,9 @@ class UsersController extends AppController {
 	public function contact() {
 		$this->autoRender = false;
 		if (!empty($this->data)) {
-			debug($this->data);
+//			debug($this->data);
+			$this->Session->setFlash('Thank you for the inquiry.');
+			$this->redirect(array('controller' => 'pages', 'action' => 'display', 'green_contact'));
 		}
 	}
 	public function view($id = null) {
