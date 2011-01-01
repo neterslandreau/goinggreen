@@ -1,14 +1,24 @@
 <?php
 class UsersController extends AppController {
 
-	var $name = 'Users';
+	public $name = 'Users';
+	public function beforeFilter() {
+		parent::beforeFilter();
+		$this->Auth->allow('contact');
+	}
 
-	function index() {
+	public function index() {
 		$this->User->recursive = 0;
 		$this->set('users', $this->paginate());
 	}
 
-	function view($id = null) {
+	public function contact() {
+		$this->autoRender = false;
+		if (!empty($this->data)) {
+			debug($this->data);
+		}
+	}
+	public function view($id = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid user', true));
 			$this->redirect(array('action' => 'index'));
@@ -16,7 +26,7 @@ class UsersController extends AppController {
 		$this->set('user', $this->User->read(null, $id));
 	}
 
-	function add() {
+	public function add() {
 		if (!empty($this->data)) {
 			$this->User->create();
 			if ($this->User->save($this->data)) {
@@ -28,7 +38,7 @@ class UsersController extends AppController {
 		}
 	}
 
-	function edit($id = null) {
+	public function edit($id = null) {
 		if (!$id && empty($this->data)) {
 			$this->Session->setFlash(__('Invalid user', true));
 			$this->redirect(array('action' => 'index'));
@@ -46,7 +56,7 @@ class UsersController extends AppController {
 		}
 	}
 
-	function delete($id = null) {
+	public function delete($id = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid id for user', true));
 			$this->redirect(array('action'=>'index'));
@@ -59,12 +69,12 @@ class UsersController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 
-	function admin_index() {
+	public function admin_index() {
 		$this->User->recursive = 0;
 		$this->set('users', $this->paginate());
 	}
 
-	function admin_view($id = null) {
+	public function admin_view($id = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid user', true));
 			$this->redirect(array('action' => 'index'));
@@ -72,7 +82,7 @@ class UsersController extends AppController {
 		$this->set('user', $this->User->read(null, $id));
 	}
 
-	function admin_add() {
+	public function admin_add() {
 		if (!empty($this->data)) {
 			$this->User->create();
 			if ($this->User->save($this->data)) {
@@ -84,7 +94,7 @@ class UsersController extends AppController {
 		}
 	}
 
-	function admin_edit($id = null) {
+	public function admin_edit($id = null) {
 		if (!$id && empty($this->data)) {
 			$this->Session->setFlash(__('Invalid user', true));
 			$this->redirect(array('action' => 'index'));
@@ -102,7 +112,7 @@ class UsersController extends AppController {
 		}
 	}
 
-	function admin_delete($id = null) {
+	public function admin_delete($id = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid id for user', true));
 			$this->redirect(array('action'=>'index'));

@@ -1,8 +1,26 @@
 <div id="bottommenu_container">
 	<div id="bottommenu">
-	<span class="topmenu"><?php echo $html->link('Home - What is Green Going Green?', array('controller' => 'pages', 'action' => 'display', 'green_home'));?></span>
-	<span class="topmenu"><?php echo $html->link('Why Signs Going Green?', array('controller' => 'pages', 'action' => 'display', 'green_why'));?></span>
-	<span class="topmenu"><?php echo $html->link('Who Is Signs Going Green?', array('controller' => 'pages', 'action' => 'display', 'green_who'));?></span>
-	<span class="topmenu"><?php echo $html->link('Contact Us', array('controller' => 'pages', 'action' => 'display', 'green_contact'));?></span>
+	<?php
+		echo $this->Html->link(
+			$this->Html->image('icon-facebook.gif'),
+			'http://www.facebook.com/',
+			array('escape' => false)
+		);
+	?>
+	<?php
+		echo $this->Html->link(
+			$this->Html->image('twitter.png'),
+			'http://www.twitter.com/',
+			array('escape' => false)
+		);
+	?>
+	<?php
+		echo $this->element('layouts/mailing_list');
+//		echo $this->Html->link(
+//			$this->Html->image('icon-facebook.gif'),
+//			'http://www.facebook.com/',
+//			array('escape' => false)
+//		);
+	?>
 	</div>
 </div>

@@ -117,13 +117,13 @@ ul, li {
 	padding: 10px 20px;
 }
 #header h1 {
-	background: url('/img/cake.icon.png') no-repeat left;
+	background: url('/img/tmpbanner.png') no-repeat left;
 	color: #ffffff;
     font-weight: bold;
 	font-size: 135%;
-    width:400px;
+    width:100px;
     text-align: right;
-	padding: 40px 55px;
+	padding: 48px 350px;
     vertical-align: text-top;
 }
 #header h1 a {
@@ -253,13 +253,13 @@ margin-bottom:-5px;
 text-decoration: none;
 color: #003d4c;
 }
-#bottommenu a:hover {
-background-color: #003d4c;
-color:#ffffc0;
-margin-top:-2px;
-border-top:1px solid #ffffc0;
-border-bottom:1px solid #ffffc0;
-}
+/*#bottommenu a:hover {
+	background-color: #003d4c;
+	color:#ffffc0;
+	margin-top:-2px;
+	border-top:1px solid #ffffc0;
+	border-bottom:1px solid #ffffc0;
+}*/
 #bottommenu_container {
 clear:both;
 text-align:center;
