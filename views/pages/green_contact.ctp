@@ -24,5 +24,12 @@
 		'label' => '',
 		'cols' => 80,
 	));
-	echo $this->Form->end('Submit');
+	$options = array(
+		'label' => 'Submit',
+		'value' => '',
+		'div' => array(
+			'class' => 'block',
+		)
+	);
+	echo $this->Form->end($options);
 ?>

@@ -274,6 +274,9 @@ display: inline;
 .block {
 	display: block;
 }
+.submit {
+	display: inline;
+}
 form div.input {
 	display: inline;
 }
