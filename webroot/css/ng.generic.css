@@ -117,14 +117,14 @@ ul, li {
 	padding: 10px 20px;
 }
 #header h1 {
-	background: url('/img/tmpbanner.png') no-repeat left;
+	background: url('/img/signgoinggreenlogo.png') no-repeat left;
 	color: #ffffff;
     font-weight: bold;
 	font-size: 135%;
-    width:100px;
-    text-align: right;
-	padding: 48px 350px;
-    vertical-align: text-top;
+    width:300px;
+	height: 200px;
+    text-align: center;
+	padding: 0px 450px 0px 300px;
 }
 #header h1 a {
 	color: #ffff80;
@@ -236,8 +236,9 @@ border-top:1px solid #ffffc0;
 border-bottom:1px solid #ffffc0;
 }
 #topmenu_container {
-clear:both;
-text-align:center;
+	clear:both;
+	text-align:center;
+	padding: 10px 0px 0px 0px;
 }
 #topmenu_container_admin {
 text-align:center;
@@ -290,6 +291,19 @@ padding-left:5px;
 padding-right:5px;
 padding-top:2px;
 padding-bottom:2px;
+}
+.logo {
+	padding: 0px 0px 0px 100px;
+	width: 800px;
+	height: 200px;
+	border: 1px solid #fff;
+	vertical-align: top;
+}
+.logo-link {
+	display: inline;
+	padding: 0px 0px -400px 0px;
+	margin: 0px 0px -400px 0px;
+	border: 1px solid #382323;
 }
 
 #usermenu {
