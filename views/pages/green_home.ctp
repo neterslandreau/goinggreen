@@ -1,6 +1,8 @@
 <?php
 	echo $this->set('title_for_layout', 'What is Green Going Green?');
 ?>
+<div id="rightpannel">
+	<div id="sectionone">
 <h1 align="center">SIGNS GOING GREEN CERTIFICATION</h1>
 <p>We believe that a signage program can be one more element that adds to a community image of corporate responsibility and good corporate citizenship.</p>
 <br />
@@ -11,5 +13,6 @@
 <p>We spend most of our efforts using the initial contact to develop a long term 5 year program. Long term planning allows for wise budgeting and effective signage.</p>
 <br />
 <p>All of our efforts are designed to promote signage for your health care facility that communicates in a cost effective manner while being eco-friendly.</p>
-
-
+here
+	</div>
+</div>

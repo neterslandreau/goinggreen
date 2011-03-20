@@ -1,5 +1,9 @@
 <?php
 	$this->set('title_for_layout', 'Contact Us');
+?>
+<div id="rightpannel">
+	<div id="sectionone">
+<?php
 	echo $this->Form->create(null, array(
 		'url' => array(
 			'controller' => 'users',
@@ -33,3 +37,6 @@
 	);
 	echo $this->Form->end($options);
 ?>
+	</div>
+</div>
+
