@@ -130,6 +130,7 @@ ul {
 
 #leftpanel  img {
 	float: left;
+	padding: 0px 20px 0px 0px;
 }
 
 /* Bottom to colums*/
