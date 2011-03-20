@@ -14,8 +14,8 @@
 	<div id="container">
 		<div id="base">
 			<div id="header">
-				<h1><span class="black">We're </span>Signs</h1>
-				<h2><span class="black">Going </span>Green</h2>
+				<h1>We're <span class="black">Signs</span></h1>
+				<h2>Going <span class="black">Green</span></h2>
 			</div>
 			<div id="navigation">
 				<?php echo $this->element('layouts/navigation'); ?>
