@@ -14,8 +14,7 @@
 	<div id="container">
 		<div id="base">
 			<div id="header">
-				<h1>We're <span class="black">Signs</span></h1>
-				<h2>Going <span class="black">Green</span></h2>
+				<?php echo $this->element('layouts/header'); ?>
 			</div>
 			<div id="navigation">
 				<?php echo $this->element('layouts/navigation'); ?>
@@ -35,7 +34,10 @@
 				<?php echo $content_for_layout; ?>
 			</div>
 			<div id="footer">
-					<p>&copy; 2008 - <?=date('Y')?> Signs Going Green</p>
+				&copy; 2008 - <?=date('Y')?> Signs Going Green &diams;
+				PO Box 15456 &diams;
+				Fort Lauderdale, FL 33318 &diams;
+				954.326.8900
 			</div>
 		</div>
 	</div>

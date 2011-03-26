@@ -1,42 +1,39 @@
 <?php
 	$this->set('title_for_layout', 'Contact Us');
-?>
-<div id="rightpannel">
-	<div id="sectionone">
-<?php
 	echo $this->Form->create(null, array(
 		'url' => array(
 			'controller' => 'users',
 			'action' => 'contact',
 		),
+		'inputDefaults' => array(
+//			'div' => false,
+//			'label' => false,
+			'size' => 40,
+		)
 	));
-	echo $this->Form->input('name', array(
-		'class' => 'block',
-		'size' => 62,
-	));
-	echo $this->Form->input('email', array(
-		'class' => 'block',
-		'size' => 62,
-	));
-	echo $this->Form->input('phone', array(
-		'class' => 'block',
-		'size' => 62,
-	));
+?>
+<div id="rightpannel">
+	<div id="sectionone">
+		<h1>Use this form to contact us</h1><br />
+<?php
+	echo $this->Form->input('name');
+	echo $this->Form->input('phone');
+	echo $this->Form->input('email');
 	echo $this->Form->input('question', array(
 		'type' => 'textarea',
 		'before' => 'Question<br />',
-		'label' => '',
-		'cols' => 80,
+		'cols' => 52,
+		'label' => false,
 	));
 	$options = array(
 		'label' => 'Submit',
 		'value' => '',
-		'div' => array(
-			'class' => 'block',
-		)
+//		'div' => array(
+//			'class' => 'block',
+//		)
 	);
-	echo $this->Form->end($options);
+//	echo $this->Form->end($options);
 ?>
 	</div>
 </div>
-
+<?php echo $this->Form->end($options); ?>

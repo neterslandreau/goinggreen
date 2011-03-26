@@ -22,7 +22,7 @@ ul {
 	margin-top: -10px;
 }
 li {
-	padding: 0px 0px 0px -20px;
+	padding: 0px 0px 0px -30px;
 }
 
 #container {
@@ -174,12 +174,9 @@ li {
 	background: #27701c;
 	color: #fff;
 	width: 690px;
-	height: 30px;
+/*	height: 30px; */
 	text-indent: 10px;
-	padding-right: 8px;
-	padding-left: 8px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding: 5px 8px 5px 8px;
 	clear: both;
 	margin-top: 5px;
 	border-bottom: 8px solid #fff;
