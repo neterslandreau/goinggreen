@@ -31,6 +31,7 @@
 						?>
 					</div>
 				</div>
+				<?php echo $this->Session->flash(); ?>
 				<?php echo $content_for_layout; ?>
 			</div>
 			<div id="footer">
