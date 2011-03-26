@@ -21,6 +21,11 @@ class UsersController extends AppController {
 				$flash = 'Thank you for the inquiry.';
 			}
 			$this->Session->setFlash($flash);
+			$this->Email->to = 'neterslandreau@gmail.com';
+			$this->Email->from = $this->data['email'];
+			$this->Email->subject = 'Hola Senor!';
+			$body = $this->data;
+			$this->Email->send($body);
 			$this->redirect(array('controller' => 'pages', 'action' => 'display', 'green_contact'));
 		}
 	}

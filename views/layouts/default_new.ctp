@@ -34,10 +34,7 @@
 				<?php echo $content_for_layout; ?>
 			</div>
 			<div id="footer">
-				&copy; 2008 - <?=date('Y')?> Signs Going Green &diams;
-				PO Box 15456 &diams;
-				Fort Lauderdale, FL 33318 &diams;
-				954.326.8900
+				&copy; 2008 - <?=date('Y')?> Signs Going Green &bull; PO Box 15456 &bull; Fort Lauderdale, FL 33318 &bull; 954.326.8900
 			</div>
 		</div>
 	</div>

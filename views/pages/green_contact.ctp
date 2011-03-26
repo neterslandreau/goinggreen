@@ -6,8 +6,6 @@
 			'action' => 'contact',
 		),
 		'inputDefaults' => array(
-//			'div' => false,
-//			'label' => false,
 			'size' => 40,
 		)
 	));
@@ -28,11 +26,7 @@
 	$options = array(
 		'label' => 'Submit',
 		'value' => '',
-//		'div' => array(
-//			'class' => 'block',
-//		)
 	);
-//	echo $this->Form->end($options);
 ?>
 	</div>
 </div>
