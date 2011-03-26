@@ -3,7 +3,6 @@ class AppController extends Controller {
     public $components = array('Session', 'Auth', 'Cookie', 'Email');
 	public $helpers = array('Session', 'Html','Javascript','Form','Xml');
 	public $publicControllers = array('pages');
-	public $layout = 'default_new';
 	public function beforeFilter() {
 		$prefixes = Configure::read('Routing.prefixes');
 		$admin = in_array('admin', $prefixes);
