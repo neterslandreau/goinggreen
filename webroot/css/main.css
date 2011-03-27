@@ -133,7 +133,11 @@ li {
 
 #leftpanel  img {
 	float: left;
-	padding: 0px 20px 0px 0px;
+	padding: 0px 20px 10px 0px;
+}
+
+#rightpanel p {
+	width: 300px;
 }
 
 /* Bottom to colums*/
@@ -178,7 +182,7 @@ li {
 	text-indent: 10px;
 	padding: 5px 8px 5px 8px;
 	clear: both;
-	margin-top: 5px;
+/*	margin-top: 5px; */
 	border-bottom: 8px solid #fff;
 	border-top: 5px solid #fff;
 	font-size: 85%;
@@ -199,16 +203,33 @@ li {
 	text-align: center;
 	margin: 0 auto;
 	clear: both;
+	background: #27701c;
+	width: 690px;
+	padding: 5px 8px 0px 8px;
+	margin: 0px 0px 0px 0px;
 }
 .social {
 	border: 0px;
 	width: 32px;
 }
 #flashMessage {
-	background: #ff0000;
+	background: #27701c;
 /*	border: 1px solid #000; */
 }
 .message {
 	font-size: 120%;
-	background: #ff0000;
+	color: #fff;
+}
+#social form {
+	display: inline;
+	clear: none;
+}
+div.submit {
+	display: inline;
+}
+div.maillist {
+	display: inline;
+	padding: 0px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: middle;
 }
