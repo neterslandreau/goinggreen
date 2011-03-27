@@ -12,23 +12,34 @@ class UsersController extends AppController {
 		$this->set('users', $this->paginate());
 	}
 
-	public function contact() {
+	public function contact($mailingList = null) {
 		$this->autoRender = false;
 		if (!empty($this->data)) {
-			if (empty($this->data['name']) || (empty($this->data['email']) && empty($this->data['phone']))) {
-				$flash = 'Please include a way for us to reply.';
-			} else {
-				$flash = 'Thank you for the inquiry.';
+			$subject = 'Mailing List Request';
+			$message = 'You will recieve monthly updates.';
+			if (!$mailingList) {
+				if (empty($this->data['name']) || (empty($this->data['email']) && empty($this->data['phone']))) {
+					$message = 'Please include a way for us to reply.';
+				} else {
+					$message = 'Thank you for the inquiry.';
+				}
+				$subject = 'Contact Request';
+			} else{
+				if (empty($this->data['email']) || $this->data['email'] == 'Enter email for monthly updates.') {
+					$message = '';
+					$this->redirect($this->referer());
+				}
 			}
-			$this->Session->setFlash($flash);
+			$this->Session->setFlash($message);
 			$this->Email->to = 'neterslandreau@gmail.com';
 			$this->Email->from = $this->data['email'];
-			$this->Email->subject = 'Hola Senor!';
+			$this->Email->subject = $subject;
 			$body = $this->data;
 			$this->Email->send($body);
-			$this->redirect(array('controller' => 'pages', 'action' => 'display', 'green_contact'));
+			$this->redirect($this->referer());
 		}
 	}
+
 	public function view($id = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid user', true));
