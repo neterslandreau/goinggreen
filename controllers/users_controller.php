@@ -31,7 +31,7 @@ class UsersController extends AppController {
 				}
 			}
 			$this->Session->setFlash($message);
-			$this->Email->to = 'neterslandreau@gmail.com';
+			$this->Email->to = 'info@signsgoinggreen.com';
 			$this->Email->from = $this->data['email'];
 			$this->Email->subject = $subject;
 			$body = $this->data;
