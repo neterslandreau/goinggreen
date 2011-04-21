@@ -8,6 +8,7 @@
 
 		echo $scripts_for_layout;
 	?>
+<meta name="google-site-verification" content="mtKXbBvN-NlYaQabvMPxOBzSTR8OW1mDROCALkH14e0" />
 <title><?php echo $title_for_layout; ?></title>
 </head>
 <body>
