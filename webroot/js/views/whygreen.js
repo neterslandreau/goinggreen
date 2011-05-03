@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$('#families-link').bind('click', function(e) {
 		$('#families').dialog({
 			width: 550,
-			title: 'Families',
+			title: 'Families and Visitors',
 			modal: true
 		});
 	});

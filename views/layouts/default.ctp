@@ -5,8 +5,8 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css(array(
+			'jquery-ui',
 			'styles',
-			'jquery-ui'
 		));
 
 		echo $scripts_for_layout;
