@@ -1,7 +1,7 @@
 <?php
-	echo $this->set('title_for_layout', 'What is Green Going Green?');
+	echo $this->set('title_for_layout', 'What is Signs Going Green?');
 ?>
-<div id="rightpannel">
+<div class="rightpanel">
 	<div id="sectionone">
 		<h1>SIGNS GOING GREEN CERTIFICATION</h1>
 		<p>We believe that a signage program can be one more element that adds to a community image of corporate responsibility and good corporate citizenship.</p>

@@ -1,7 +1,7 @@
 <?php
 	echo $this->set('title_for_layout', 'Why Signs Going Green?');
 ?>
-<div id="rightpannel">
+<div class="rightpanel">
 	<div id="sectionone">
 		<h1>Hospitals</h1>
 		<p>Hospitals and health care facilities are very special places because of the populations they serve:</p>

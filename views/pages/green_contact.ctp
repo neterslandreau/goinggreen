@@ -10,7 +10,7 @@
 		)
 	));
 ?>
-<div id="rightpannel">
+<div class="rightpanel">
 	<div id="sectionone">
 		<h1>Use this form to contact us</h1><br />
 <?php
@@ -29,5 +29,5 @@
 	);
 ?>
 	</div>
-</div>
 <?php echo $this->Form->end($options); ?>
+</div>
