@@ -4,7 +4,10 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css(array('styles'));
+		echo $this->Html->css(array(
+			'styles',
+			'jquery-ui'
+		));
 
 		echo $scripts_for_layout;
 	?>

@@ -156,30 +156,30 @@ li {
 
 /* Bottom to colums*/
 
-#bottomcontent {
+.bottomcontent {
 	clear: both; 
 }
 
-#bottomcontent  img {
+.bottomcontent  img {
 	float: right;
-	border: 10px solid #fff;
+	border: 10px solid #ffffc8;
 	margin-top: 5px;
 }
 
-#bottomleft{
+.bottomleft{
 	float: right;
-	border-top:  3px solid #fff;
-	border-bottom:  3px solid #fff;
-	border-right:  3px solid #fff;
-	border-left: 20px solid #fff;
+	border-top:  3px solid #ffffc8;
+	border-bottom:  3px solid #ffffc8;
+	border-right:  3px solid #ffffc8;
+	border-left: 20px solid #ffffc8;
 	width: 320px;
 }
 
-#bottomright {
-	border-top:  3px solid #fff;
-	border-left:  3px solid #fff;
-	border-bottom:  3px solid #fff;
-	border-right: 20px solid  #fff;
+.bottomright {
+	border-top:  3px solid #ffffc8;
+	border-left:  3px solid #ffffc8;
+	border-bottom:  3px solid #ffffc8;
+	border-right: 20px solid  #ffffc8;
 	width: 320px;
 	float: right;
 }
@@ -246,4 +246,20 @@ div.maillist {
 	padding: 0px 5px 5px 0px;
 	margin: 0px 0px 0px 0px;
 	vertical-align: middle;
+}
+#families.ui-dialog-content, #patients.ui-dialog-content {
+	background: #fff;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background: #FFFFFF;
+	border-bottom: 1px dotted #C9C9C9;
+	margin-bottom: 3px;
+	color: #18BBBE;
+}
+.ui-dialog .ui-dialog-title {
+	font-size: 23px;
+}
+
+.ui-dialog .ui-dialog-content {
+	background: #F2f2f2;
 }
