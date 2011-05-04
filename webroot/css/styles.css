@@ -261,10 +261,13 @@ div.maillist {
 .ui-dialog .ui-dialog-titlebar-close span {
 	padding: 0px 5px 5px 0px;
 	background: url(../img/close-cross.png) no-repeat;
+<<<<<<< HEAD
 }
 .ui-dialog .ui-dialog-titlebar-close span {
 	padding: 0px 5px 5px 0px;
 	background: url(../img/close-cross.png) no-repeat;
+=======
+>>>>>>> e95e2c9d5f26debb506ba86d7eb182aceb2616f6
 }
 .ui-dialog .ui-dialog-titlebar {
 	background: #FFFFFF;
