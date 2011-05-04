@@ -256,6 +256,7 @@ div.maillist {
 }
 #families.ui-dialog-content, #patients.ui-dialog-content {
 	background: #fff;
+	font-size: 120%;
 }
 .ui-dialog .ui-dialog-titlebar-close span {
 	padding: 0px 5px 5px 0px;
