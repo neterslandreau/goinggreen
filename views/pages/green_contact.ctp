@@ -10,9 +10,9 @@
 		)
 	));
 ?>
-<div id="rightpannel">
+<div class="rightpanel">
 	<div id="sectionone">
-		<h1>Use this form to contact us</h1><br />
+		<h1>We at the SGG project hope to partner with you to provide a healthier environment for a healthier population.</h1><br />
 <?php
 	echo $this->Form->input('name');
 	echo $this->Form->input('phone');
@@ -29,5 +29,5 @@
 	);
 ?>
 	</div>
-</div>
 <?php echo $this->Form->end($options); ?>
+</div>

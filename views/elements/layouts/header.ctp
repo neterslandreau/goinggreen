@@ -1,10 +1,13 @@
 <?php
 	switch ($this->here) {
-		case '/why_green':
+		case '/why_signs_going_green':
 			$word = 'Why ';
 			break;
-		case '/whos_green':
+		case '/who_is_signs_going_green':
 			$word = 'Who\'s ';
+			break;
+		case '/what_of_signs_going_green':
+			$word = 'What of ';
 			break;
 		case '/contact':
 			$word = 'Contact ';

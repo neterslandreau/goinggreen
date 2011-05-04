@@ -1,10 +1,10 @@
 body, html {
-	margin: 0px;
-	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 90%;
 	color: #484848;
-	background: #fff;
+	background: #ffffc8;
 }
 
 html, body, #container {
@@ -31,27 +31,40 @@ li {
 	left: 0px;
 }
 
+.rightpanel {
+	float: left;
+	width: 510px;
+	background: #ffffc8;
+	margin: 0px 0px 0px -20px;
+	padding: 0px 0px 0px 0px;
+}
+.leftpanel {
+/*	float: left;*/
+	width: 50%;
+}
+
 #base {
-	width: 690px;
-	margin: 10px auto 10px;
+	width: 800px;
+	margin: -20px auto;
+	padding: 0px 0px 0px 0px;
 }
 
 #header {
 	background: #27701c;
 	color: #fff;
 	font-family: Newtown, Arial, Helvetica, sans-serif;
-	margin-bottom: -10px;
+	margin: 0px 0px -10px 0px;
 }
 
 #header h1 {
 	font-size: 250%;
-	padding-left: 180px;
+	padding-left: 300px;
 	margin-bottom: -12px;
 
 }
 
 #header h2 {
-	padding-left: 230px;
+	padding-left: 330px;
 	padding-bottom: 3px;
 	font-size: 150%;
 }
@@ -68,18 +81,19 @@ li {
 #navigation {
 	background: #27701c;
 	color: inherit;
-	padding: 3px 10px 10px 10px;
+	padding: 3px 0px 10px 0px;
 }
 
 #navigation li {
 	display: inline;
+/*	float: left;*/
 	padding-left: 10px;
 }
 
 #navigation ul {
 	list-style: none;
 	margin: 0;
-	padding: 4px 0 0 5px;
+	padding: 4px 0px 0px 5px;
 }
 
 #navigation a:link, #navigation a:visited{
@@ -92,13 +106,13 @@ li {
 #navigation a:hover {
 	color: #fff;
 	background: #27701c;
-	border-bottom: 10px solid #fff;
+	border-bottom: 10px solid #ffffc8;
 }
 
 /* The settings for the content */
 
 #content {
-	border-top: 5px solid #fff;
+	border-top: 5px solid #ffffc8;
 }
 
 /* The links for the content */
@@ -131,41 +145,42 @@ li {
 
 /*This lets the big image be place on the left */
 
-#leftpanel  img {
+.leftpanel img {
 	float: left;
-	padding: 0px 20px 10px 0px;
+	padding: 0px 30px 10px 0px;
 }
 
-#rightpanel p {
-	width: 300px;
+.rightpanel p {
+	width: 100%;
+	font-size: 18px;
 }
 
 /* Bottom to colums*/
 
-#bottomcontent {
+.bottomcontent {
 	clear: both; 
 }
 
-#bottomcontent  img {
+.bottomcontent  img {
 	float: right;
-	border: 10px solid #fff;
+	border: 10px solid #ffffc8;
 	margin-top: 5px;
 }
 
-#bottomleft{
+.bottomleft{
 	float: right;
-	border-top:  3px solid #fff;
-	border-bottom:  3px solid #fff;
-	border-right:  3px solid #fff;
-	border-left: 20px solid #fff;
+	border-top:  3px solid #ffffc8;
+	border-bottom:  3px solid #ffffc8;
+	border-right:  3px solid #ffffc8;
+	border-left: 20px solid #ffffc8;
 	width: 320px;
 }
 
-#bottomright {
-	border-top:  3px solid #fff;
-	border-left:  3px solid #fff;
-	border-bottom:  3px solid #fff;
-	border-right: 20px solid  #fff;
+.bottomright {
+	border-top:  3px solid #ffffc8;
+	border-left:  3px solid #ffffc8;
+	border-bottom:  3px solid #ffffc8;
+	border-right: 20px solid  #ffffc8;
 	width: 320px;
 	float: right;
 }
@@ -177,14 +192,14 @@ li {
 	position: static;
 	background: #27701c;
 	color: #fff;
-	width: 690px;
+	width: 800px;
 /*	height: 30px; */
 	text-indent: 10px;
 	padding: 5px 8px 5px 8px;
 	clear: both;
 /*	margin-top: 5px; */
-	border-bottom: 8px solid #fff;
-	border-top: 5px solid #fff;
+	border-bottom: 8px solid #ffffc8;
+	border-top: 5px solid #ffffc8;
 	font-size: 85%;
 }
 
@@ -204,7 +219,7 @@ li {
 	margin: 0 auto;
 	clear: both;
 	background: #27701c;
-	width: 690px;
+	width: 800px;
 	padding: 5px 8px 0px 8px;
 	margin: 0px 0px 0px 0px;
 }
@@ -223,6 +238,12 @@ li {
 #social form {
 	display: inline;
 	clear: none;
+	padding: 0px 0px 0px 0px;
+}
+#social input {
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
+	vertical-align: top;
 }
 div.submit {
 	display: inline;
@@ -232,4 +253,23 @@ div.maillist {
 	padding: 0px 5px 5px 0px;
 	margin: 0px 0px 0px 0px;
 	vertical-align: middle;
+}
+#families.ui-dialog-content, #patients.ui-dialog-content {
+	background: #fff;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background: #FFFFFF;
+	border-bottom: 1px dotted #C9C9C9;
+	color: #18BBBE;
+}
+.ui-dialog .ui-dialog-title {
+	font-size: 23px;
+}
+
+.ui-dialog .ui-dialog-content {
+	background: #F2f2f2;
+}
+#sectionone img {
+	padding: 0px 0px 0px 70px;
+	margin: 0px 0px 0px 0px;
 }

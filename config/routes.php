@@ -28,8 +28,9 @@
  * to use (in this case, /app/views/pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'green_home'));
-	Router::connect('/why_green', array('controller' => 'pages', 'action' => 'display', 'green_why'));
-	Router::connect('/whos_green', array('controller' => 'pages', 'action' => 'display', 'green_who'));
+	Router::connect('/why_signs_going_green', array('controller' => 'pages', 'action' => 'display', 'green_why'));
+	Router::connect('/who_is_signs_going_green', array('controller' => 'pages', 'action' => 'display', 'green_who'));
+	Router::connect('/what_of_signs_going_green', array('controller' => 'pages', 'action' => 'display', 'green_what'));
 	Router::connect('/contact', array('controller' => 'pages', 'action' => 'display', 'green_contact'));
 
 /**

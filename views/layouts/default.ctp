@@ -4,7 +4,10 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css(array('main'));
+		echo $this->Html->css(array(
+			'jquery-ui',
+			'styles',
+		));
 
 		echo $scripts_for_layout;
 	?>
@@ -21,18 +24,18 @@
 				<?php echo $this->element('layouts/navigation'); ?>
 			</div>
 			<div id="content">
-				<div id="leftpanel">
-					<div id="bigimage">
+				<?php echo $this->Session->flash(); ?>
+				<div class="leftpanel">
+					<div class="bigimage">
 						<?php
 							echo $this->Html->link(
-								$this->Html->image('signgoinggreenlogo.jpg', array('alt' => 'Going Green!', 'border' => 0, 'width' => 280, 'height' => 321)),
+								$this->Html->image('signgoinggreenlogo.png', array('alt' => 'Going Green!', 'border' => 0, 'width' => 280, 'height' => 321)),
 								'/',
 								array('escape' => false)
 							);
 						?>
 					</div>
 				</div>
-				<?php echo $this->Session->flash(); ?>
 				<?php echo $content_for_layout; ?>
 			</div>
 			<div id="social">
