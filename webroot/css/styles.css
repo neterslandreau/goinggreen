@@ -198,8 +198,8 @@ li {
 	padding: 5px 8px 5px 8px;
 	clear: both;
 /*	margin-top: 5px; */
-	border-bottom: 8px solid #fff;
-	border-top: 5px solid #fff;
+	border-bottom: 8px solid #ffffc8;
+	border-top: 5px solid #ffffc8;
 	font-size: 85%;
 }
 
@@ -238,6 +238,12 @@ li {
 #social form {
 	display: inline;
 	clear: none;
+	padding: 0px 0px 0px 0px;
+}
+#social input {
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
+	vertical-align: top;
 }
 div.submit {
 	display: inline;
