@@ -33,7 +33,7 @@ li {
 
 .rightpanel {
 	float: left;
-	width: 400px;
+	width: 510px;
 	background: #ffffc8;
 	margin: 0px 0px 0px -20px;
 	padding: 0px 0px 0px 0px;
@@ -44,7 +44,7 @@ li {
 }
 
 #base {
-	width: 690px;
+	width: 800px;
 	margin: -20px auto;
 	padding: 0px 0px 0px 0px;
 }
@@ -81,7 +81,7 @@ li {
 #navigation {
 	background: #27701c;
 	color: inherit;
-	padding: 3px 10px 10px 10px;
+	padding: 3px 0px 10px 0px;
 }
 
 #navigation li {
@@ -192,7 +192,7 @@ li {
 	position: static;
 	background: #27701c;
 	color: #fff;
-	width: 690px;
+	width: 800px;
 /*	height: 30px; */
 	text-indent: 10px;
 	padding: 5px 8px 5px 8px;
@@ -219,7 +219,7 @@ li {
 	margin: 0 auto;
 	clear: both;
 	background: #27701c;
-	width: 690px;
+	width: 800px;
 	padding: 5px 8px 0px 8px;
 	margin: 0px 0px 0px 0px;
 }
