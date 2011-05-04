@@ -34,7 +34,7 @@ li {
 .rightpanel {
 	float: left;
 	width: 400px;
-	background: #ffffc0;
+	background: #ffffc8;
 	margin: 0px 0px 0px -20px;
 	padding: 0px 0px 0px 0px;
 }
@@ -152,6 +152,7 @@ li {
 
 .rightpanel p {
 	width: 100%;
+	font-size: 18px;
 }
 
 /* Bottom to colums*/
@@ -262,6 +263,7 @@ div.maillist {
 .ui-dialog .ui-dialog-content {
 	background: #F2f2f2;
 }
-.ui-icon-closethick {
-	background-image: url('../img/close-cross.png');
+#sectionone img {
+	padding: 0px 0px 0px 70px;
+	margin: 0px 0px 0px 0px;
 }
