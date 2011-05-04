@@ -6,6 +6,9 @@
 		case '/whos_green':
 			$word = 'Who\'s ';
 			break;
+		case '/what_green':
+			$word = 'What of ';
+			break;
 		case '/contact':
 			$word = 'Contact ';
 			break;

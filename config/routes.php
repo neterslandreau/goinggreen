@@ -30,6 +30,7 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'green_home'));
 	Router::connect('/why_green', array('controller' => 'pages', 'action' => 'display', 'green_why'));
 	Router::connect('/whos_green', array('controller' => 'pages', 'action' => 'display', 'green_who'));
+	Router::connect('/what_green', array('controller' => 'pages', 'action' => 'display', 'green_what'));
 	Router::connect('/contact', array('controller' => 'pages', 'action' => 'display', 'green_contact'));
 
 /**
