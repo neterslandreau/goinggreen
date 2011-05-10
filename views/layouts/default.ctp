@@ -13,6 +13,9 @@
 	?>
 <meta name="google-site-verification" content="mtKXbBvN-NlYaQabvMPxOBzSTR8OW1mDROCALkH14e0" />
 <title><?php echo $title_for_layout; ?></title>
+<?php
+	echo $this->element('layouts/google_analytics');
+?>
 </head>
 <body>
 	<div id="container">

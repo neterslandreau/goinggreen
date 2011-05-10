@@ -3,7 +3,8 @@ $(document).ready(function() {
 		$('#patients').dialog({
 			width: 550,
 			title: 'Patients',
-			modal: true
+			modal: true,
+			show: 'blind'
 		});
 	});
 
@@ -11,7 +12,8 @@ $(document).ready(function() {
 		$('#families').dialog({
 			width: 550,
 			title: 'Families and Visitors',
-			modal: true
+			modal: true,
+			show: 'blind'
 		});
 	});
 });

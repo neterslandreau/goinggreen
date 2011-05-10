@@ -37,9 +37,10 @@
 	<?php
 		echo $this->Html->link(
 			$this->Html->image('linkedin.png', array('class' => 'social')),
-			'http://www.linkedin.com/profile/view?id=116412226&trk=tab_pro',
+			'http://www.linkedin.com/pub/jarvis-%22jj%22-jones/32/ba0/22a',
 			array(
 				'escape' => false,
+				'target' => '_blank',
 			)
 		);
 	?>
