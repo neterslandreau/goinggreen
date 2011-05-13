@@ -4,16 +4,16 @@
 			$word = 'Why ';
 			break;
 		case '/who_is_signs_going_green':
-			$word = 'Who\'s ';
+			$word = 'Who is ';
 			break;
 		case '/what_of_signs_going_green':
-			$word = 'What of ';
+			$word = 'What is ';
 			break;
 		case '/contact':
 			$word = 'Contact ';
 			break;
 		default:
-			$word = 'We\'re ';
+			$word = 'We are ';
 	}
 ?>
 <h1><?php echo $word; ?><span class="black">Signs</span></h1>
