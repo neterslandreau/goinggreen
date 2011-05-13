@@ -3,10 +3,14 @@
 ?>
 <div class="rightpanel">
 	<div id="sectionone">
-		<h1>What of Signs Going Green?</h1>
+		<h1>What is Signs Going Green?</h1>
 		<p>
 			Not all of our recommendations require budgetary outlays.
 			Sometimes older technology is best left unchanged.
+		</p>
+		<p>
+			We believe that when you respect the environment, your
+			image in the community should reflect your efforts.
 		</p>
 		<p>
 			Balancing a respect for environmental impact with the
@@ -18,10 +22,6 @@
 			clear to the community. Signs Going Green identification
 			icons can be used on signs, in employee areas, at consumer
 			locations or in marketing materials.
-		</p>
-		<p>
-			We believe that when you respect the environment, your
-			image in the community should reflect your efforts.
 		</p>
 	</div>
 </div>

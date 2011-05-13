@@ -17,14 +17,14 @@
 	Facilities to make their signs eco-friendly.
 	</p>
 	<p>
+	We design a long term plan for your signage that is cost effective
+	while being eco-friendly.
+	</p>
+	<p>
 	SGG analyzes existing and potential signs for their carbon footprint
 	and budgetary impact. Materials, maintenance cost, visual impact,
 	message effectiveness as well as purchase price are all analyzed. A
 	large facilities' signage is more than just energy consumption.
-	</p>
-	<p>
-	We design a long term plan for your signage that is cost effective
-	while being eco-friendly.
 	</p>
 	</div>
 </div>

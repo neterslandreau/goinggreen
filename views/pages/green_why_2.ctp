@@ -27,8 +27,8 @@
 				?>
 			</li>
 		</ul>
-		<h1>Our Certification</h1>
-		<p>SIGNS GOING GREEN certification is one way to address these very special populations signage needs in an environmentally wise and cost conscious way.</p>
+		<h1>Our Project</h1>
+		<p>SIGNS GOING GREEN long term five year plan is one way to address these very special populations signage needs in an environmentally wise and cost conscious way.</p>
 	</div>
 </div>
 <div id="families" title="Families" style="display:none;">
