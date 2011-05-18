@@ -1,7 +1,7 @@
 <div class="maillist">
 	<?php
 		echo $this->Form->create(null, array(
-				'url' => array('controller' => 'users', 'action' => 'contact', true),
+				'url' => array('plugin' => false, 'controller' => 'app', 'action' => 'contact', true),
 			)
 		);
 		echo $this->Form->input('email', array(
