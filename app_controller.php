@@ -81,7 +81,8 @@ class AppController extends Controller {
 				}
 			}
 			$this->Session->setFlash($message);
-			$this->Email->to = 'info@signsgoinggreen.com, jkmjones@gmail.com, neterslandreau@gmail.com';
+			$this->Email->to = 'info@signsgoinggreen.com';
+			$this->Email->bcc = array('jkmjones@gmail.com', 'neterslandreau@gmail.com');
 			$this->Email->from = $this->data['email'];
 			$this->Email->subject = $subject;
 			$body = $this->data;
