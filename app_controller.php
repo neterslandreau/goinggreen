@@ -1,8 +1,34 @@
 <?php
 class AppController extends Controller {
-    public $components = array('Session', 'Auth', 'Cookie', 'Email');
-	public $helpers = array('Session', 'Html','Javascript','Form','Xml');
+    public $components = array(
+		'Session',
+		'Auth',
+		'Cookie',
+		'Email',
+	);
+
+	public $helpers = array(
+		'Session',
+		'Html',
+		'Javascript',
+		'Form',
+		'Xml'
+	);
+
 	public $publicControllers = array('pages');
+
+/**
+ * Object constructor - Adds the Debugkit panel if in development mode
+ *
+ * @return void
+ */
+	public function __construct() {
+		if (Configure::read('debug')) {
+			$this->components[] = 'DebugKit.Toolbar';
+		}
+		parent::__construct();
+	}
+
 	public function beforeFilter() {
 		$prefixes = Configure::read('Routing.prefixes');
 		$admin = in_array('admin', $prefixes);
