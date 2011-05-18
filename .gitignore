@@ -1,11 +1,15 @@
-config/database.php
-nbproject
 # Temporary files
-/app/tmp/cache/models/*
-/app/tmp/cache/persistent/*
-/app/tmp/cache/views/*
-/app/tmp/cache/*
-/app/tmp/logs/*
-/app/tmp/sessions/*
-/app/tmp/tests/*
+tmp/cache/models/*
+tmp/cache/persistent/*
+tmp/cache/views/*
+tmp/cache/*
+tmp/logs/*
+tmp/sessions/*
+tmp/tests/*
+
+# Configuration files
+config/database.php
+
+# IDE files
+nbproject
 
