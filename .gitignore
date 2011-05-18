@@ -9,6 +9,7 @@ tmp/tests/*
 
 # Configuration files
 config/database.php
+config/core.php
 
 # IDE files
 nbproject
