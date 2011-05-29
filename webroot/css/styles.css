@@ -122,6 +122,7 @@ li {
 	background: inherit;
 	font-weight: bold;
 	text-decoration: none;
+	font-size: 120%;
 }
 
 #content a:hover, #content a:focus, #content a:active {
@@ -255,10 +256,9 @@ div.maillist {
 	vertical-align: middle;
 }
 #families.ui-dialog-content, #patients.ui-dialog-content {
-	background: #fff;
 	font-size: 120%;
 }
-.ui-dialog .ui-dialog-titlebar-close span {
+/*.ui-dialog .ui-dialog-titlebar-close span {
 	padding: 0px 5px 5px 0px;
 	background: url(../img/close-cross.png) no-repeat;
 }
@@ -293,22 +293,43 @@ div.maillist {
 .ui-dialog .ui-dialog-titlebar-close span {
 	padding: 0px 5px 5px 0px;
 	background: url(../img/close-cross.png) no-repeat;
-}
+}*/
 .ui-dialog .ui-dialog-titlebar-close span {
 	padding: 0px 5px 5px 0px;
 	background: url(../img/close-cross.png) no-repeat;
 }
 .ui-dialog .ui-dialog-titlebar {
-	background: #FFFFFF;
-	border-bottom: 1px dotted #C9C9C9;
-	color: #18BBBE;
+	background: #82A8D6;
+	border-bottom: 0px dotted #C9C9C9;
+	border-top: 0px solid #000;
+	border-left: 0px solid #000;
+	border-right: 0px solid #000;
+	color: #fff;
 }
 .ui-dialog .ui-dialog-title {
 	font-size: 23px;
 }
 
 .ui-dialog .ui-dialog-content {
-	background: #F2f2f2;
+	background: #E0D7DF;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	background: #82A8D6;
+	text-align: right;
+	border-width: 0px 0 0 0;
+	background-image: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.ui-widget-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .90;
+	filter: Alpha(Opacity=90);
+	background: #000;
 }
 #sectionone img {
 	padding: 0px 0px 0px 130px;
