@@ -1,5 +1,5 @@
 <?php
-	echo $this->set('title_for_layout', 'What of Signs Going Green?');
+	echo $this->set('title_for_layout', 'What is Signs Going Green?');
 ?>
 <div class="rightpanel">
 	<div id="sectionone">
