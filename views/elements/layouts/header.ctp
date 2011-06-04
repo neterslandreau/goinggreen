@@ -6,7 +6,7 @@
 		case '/who_is_signs_going_green':
 			$word = 'Who is ';
 			break;
-		case '/what_of_signs_going_green':
+		case '/what_is_signs_going_green':
 			$word = 'What is ';
 			break;
 		case '/contact':
